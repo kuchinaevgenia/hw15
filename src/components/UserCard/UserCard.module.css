@@ -1,0 +1,60 @@
+.userCard {
+  font-family: sans-serif;
+  width: 280px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  margin: 40px auto;
+}
+
+.userImg {
+  height: 220px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.userName {
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.userNick {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  color: grey;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.verifyImg {
+  width: 16px;
+  height: 16px;
+}
+
+.statsContainer {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid grey;
+  padding: 15px;
+}
+
+.statItem {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.statLabel {
+  font-size: 12px;
+  color: grey;
+  text-transform: uppercase;
+}
+
+.statValue {
+  font-size: 18px;
+  font-weight: 600;
+}
